@@ -1,0 +1,616 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Anuncios Gratis - Search</title>
+  <link rel="stylesheet" type="text/css" href="/buscar/stylesearch.css" />
+  <link href="/images/main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
+<body>
+
+<div id="logo">
+		
+	<a href="/index.php"><img src="/images/xbg1.jpg" width="600" height="150" alt=""/></a>
+			
+
+	
+	<h3>Buscar anuncios SÓLO por o una parte de (ejemplo: poner " 180 " en el teléfono, sin las comillas.):
+	
+	<p></p>
+	
+	<form method="get" action="searchcat.php">
+    <label for="categoria">La Categoría:</label>
+	
+	<select name="categoria">
+	
+	<option>actos y eventos</option>
+	<option>aficiones y ocio</option>
+	<option>agricultura</option>
+	<option>animales</option>
+	<option>asociaciones</option>
+	<option>bicicletas</option>
+	<option>casa y jardin</option>
+	<option>caza y pesca</option>
+	<option>coleccionismo</option>
+	<option>comics y tebeos</option>
+	<option>deportes</option>
+	<option>electrodomesticos</option>
+	<option>empleo_demandas</option>
+	<option>empleo_ofertas</option>
+	<option>empresas</option>
+	<option>formacion</option>
+	<option>hosteleria y turismo</option>
+	<option>imagen y sonido</option>
+	<option>informatica</option>
+	<option>inmobiliaria_alquiler</option>
+	<option>inmobiliaria_ventas</option>
+	<option>juegos</option>
+	<option>juegos_juguetes</option>
+	<option>juegos_videojuegos</option>
+	<option>libros</option>
+	<option>maquinaria y aperos</option>
+	<option>moda y complementos</option>
+	<option>motor</option>
+	<option>motor_camiones</option>
+	<option>motor_coches</option>
+	<option>motor_motos</option>
+	<option>motor_todoterrenos</option>
+	<option>motor_tractores</option>
+	<option>motor_vehiculos industriales</option>
+	<option>profesionales</option>
+	<option>salud</option>
+	<option>salud_belleza</option>
+	<option>servicios</option>
+	<option>telefonia</option>
+	<option>otras</option>
+	
+	</select>
+	
+    <!--<input type="text" id="usersearch" name="usersearch" />-->
+	
+    <input type="submit" name="submit" value="Buscar" />
+	</form>
+	
+	<p></p>	
+
+	<form method="get" action="searchprov.php">
+    <label for="provincia">La Provincia:</label>
+	
+	<select name="provincia">
+	
+	<option>Alava</option>
+	<option>Albacete</option>
+	<option>Alicante</option>
+	<option>Almeria</option>
+	<option>Asturias</option>
+	<option>Avila</option>
+	<option>Badajoz</option>
+	<option>Baleares</option>
+	<option>Barcelona</option>
+	<option>Burgos</option>
+	<option>Caceres</option>
+	<option>Cadiz</option>
+	<option>Cantabria</option>
+	<option>Castellon</option>
+	<option>Ceuta</option>
+	<option>Ciudad Real</option>
+	<option>Cordoba</option>
+	<option>Cuenca</option>
+	<option>Gerona</option>
+	<option>Granada</option>
+	<option>Guadalajara</option>
+	<option>Guipuzcoa</option>
+	<option>Huelva</option>
+	<option>Huesca</option>
+	<option>Jaen</option>
+	<option>La Coruña</option>
+	<option>La Rioja</option>
+	<option>Las Palmas</option>
+	<option>Leon</option>
+	<option>Lerida</option>
+	<option>Lugo</option>
+	<option>Madrid</option>
+	<option>Malaga</option>
+	<option>Melilla</option>
+	<option>Murcia</option>
+	<option>Navarra</option>
+	<option>Orense</option>
+	<option>Palencia</option>
+	<option>Pontevedra</option>
+	<option>Salamanca</option>
+	<option>Segovia</option>
+	<option>Sevilla</option>
+	<option>Soria</option>
+	<option>Tarragona</option>
+	<option>Tenerife</option>
+	<option>Teruel</option>
+	<option>Toledo</option>
+	<option>Valencia</option>
+	<option>Valladolid</option>
+	<option>Vizcaya</option>
+	<option>Zamora</option>
+	<option>Zaragoza</option>
+
+	</select>
+	
+    <!--<input type="text" id="usersearch" name="usersearch" />-->
+	
+    <input type="submit" name="submit" value="Buscar" />
+	</form>
+	
+	<p></p>
+		
+	<form method="get" action="searchtit.php">
+    <label for="usersearch">El Título:</label>
+    <input type="text" id="usersearch" name="usersearch" />
+    <input type="submit" name="submit" value="Buscar" />
+	</form>
+	
+	<p></p>
+	
+	<form method="get" action="searchdes.php">
+    <label for="usersearch">La Descripción:</label>
+    <input type="text" id="usersearch" name="usersearch" />
+    <input type="submit" name="submit" value="Buscar" />
+	</form>
+	
+	<p></p>
+	
+	<form method="get" action="searchtel.php">
+    <label for="usersearch">El Teléfono:</label>
+    <input type="text" id="usersearch" name="usersearch" />
+    <input type="submit" name="submit" value="Buscar" />
+	</form>
+	
+	<p></p>
+
+	<p>Buscar anuncios por:</p>
+	
+	<p></p>
+	
+	<form method="get" action="search2.php">
+	
+	<label for="categoria">Categoría:</label>
+	<select name="categoria">
+	
+	<option>actos y eventos</option>
+	<option>aficiones y ocio</option>
+	<option>agricultura</option>
+	<option>animales</option>
+	<option>asociaciones</option>
+	<option>bicicletas</option>
+	<option>casa y jardin</option>
+	<option>caza y pesca</option>
+	<option>coleccionismo</option>
+	<option>comics y tebeos</option>
+	<option>deportes</option>
+	<option>electrodomesticos</option>
+	<option>empleo_demandas</option>
+	<option>empleo_ofertas</option>
+	<option>empresas</option>
+	<option>formacion</option>
+	<option>hosteleria y turismo</option>
+	<option>imagen y sonido</option>
+	<option>informatica</option>
+	<option>inmobiliaria_alquiler</option>
+	<option>inmobiliaria_ventas</option>
+	<option>juegos</option>
+	<option>juegos_juguetes</option>
+	<option>juegos_videojuegos</option>
+	<option>libros</option>
+	<option>maquinaria y aperos</option>
+	<option>moda y complementos</option>
+	<option>motor</option>
+	<option>motor_camiones</option>
+	<option>motor_coches</option>
+	<option>motor_motos</option>
+	<option>motor_todoterrenos</option>
+	<option>motor_tractores</option>
+	<option>motor_vehiculos industriales</option>
+	<option>profesionales</option>
+	<option>salud</option>
+	<option>salud_belleza</option>
+	<option>servicios</option>
+	<option>telefonia</option>
+	<option>otras</option>
+	
+	</select>
+    
+ 	<label for="provincia">y Provincia:</label>
+    <select name="provincia">
+	
+	<option>Alava</option>
+	<option>Albacete</option>
+	<option>Alicante</option>
+	<option>Almeria</option>
+	<option>Asturias</option>
+	<option>Avila</option>
+	<option>Badajoz</option>
+	<option>Baleares</option>
+	<option>Barcelona</option>
+	<option>Burgos</option>
+	<option>Caceres</option>
+	<option>Cadiz</option>
+	<option>Cantabria</option>
+	<option>Castellon</option>
+	<option>Ceuta</option>
+	<option>Ciudad Real</option>
+	<option>Cordoba</option>
+	<option>Cuenca</option>
+	<option>Gerona</option>
+	<option>Granada</option>
+	<option>Guadalajara</option>
+	<option>Guipuzcoa</option>
+	<option>Huelva</option>
+	<option>Huesca</option>
+	<option>Jaen</option>
+	<option>La Coruña</option>
+	<option>La Rioja</option>
+	<option>Las Palmas</option>
+	<option>Leon</option>
+	<option>Lerida</option>
+	<option>Lugo</option>
+	<option>Madrid</option>
+	<option>Malaga</option>
+	<option>Melilla</option>
+	<option>Murcia</option>
+	<option>Navarra</option>
+	<option>Orense</option>
+	<option>Palencia</option>
+	<option>Pontevedra</option>
+	<option>Salamanca</option>
+	<option>Segovia</option>
+	<option>Sevilla</option>
+	<option>Soria</option>
+	<option>Tarragona</option>
+	<option>Tenerife</option>
+	<option>Teruel</option>
+	<option>Toledo</option>
+	<option>Valencia</option>
+	<option>Valladolid</option>
+	<option>Vizcaya</option>
+	<option>Zamora</option>
+	<option>Zaragoza</option>
+
+	</select>
+	
+    <input type="submit" name="submit" value="Buscar" />
+	</form>
+	
+	</h3>
+	
+</div>
+
+  <br />
+   <br />
+    <br />
+	 <br />
+	  <br />
+	   <br />
+	    <br />
+		 <br />
+		  <br />
+		   <br />
+			<br />
+			 <br />
+			  <br />
+		       <br />
+		        <br />
+				 
+<div id ="container">
+
+	<div id = "navdiv">
+    <ul class = "mainlinks">
+      <li><a href="/infor.php">información</a></li>
+	  <li><a href="/logon/">mis anuncios</a></li>	  
+      <li><a href="/addscore.php" >publicar anuncios</a></li>
+	  <li><a href="/buscar/search.html" >buscar anuncios</a></li>
+	  <li><a href="/index.php" >inicio</a></li>
+
+	  <!--<li><a href="index.php" class="selected">inicio</a></li>-->	  
+	
+	</p>
+	<br />
+  
+  	</ul>
+    </div>
+  
+  <div id="content">
+    <ul id="picturelist">
+	
+		<li>animales
+	  
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Animales</label><br/>
+		<select name="categoria">
+		<option>animales</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+	  	<a href="/buscar/searchcatA.php?usersearch=animales&submit=Buscar"><img src="/images/animales.png"width="190" height="190" alt="animales"/></a>
+		
+		</li>
+	
+		<li>bicicletas
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Bicicletas</label><br/>
+		<select name="categoria">
+		<option>bicicletas</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+	  	<a href="/buscar/searchcatA.php?usersearch=bicicletas&submit=Buscar"><img src="/images/bicis.png"width="190" height="190" alt="bicicletas"/></a>
+		
+		</li>
+		
+		<li>coches
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Coches</label><br/>
+		<select name="categoria">
+		<option>coches</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+	  	<a href="/buscar/searchcatA.php?usersearch=coches&submit=Buscar"><img src="/images/coches.png"width="190" height="190" alt="coches"/></a>
+		
+		</li>
+		
+		<li>empleo
+		
+		<!--
+	  	<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Empleo</label><br/>
+		<select name="categoria">
+		<option>empleo</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+		<a href="/buscar/searchcatA.php?usersearch=empleo&submit=Buscar"><img src="/images/empleos.png"width="190" height="190"alt="empleo"/></a>
+		
+		</li>
+	
+		<li>empresas
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Empresas</label><br/>
+		<select name="categoria">
+		<option>empresas</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />	
+		</form>
+		-->
+		
+		<a href="/buscar/searchcatA.php?usersearch=empresas&submit=Buscar"><img src="/images/empresas.png"width="190" height="190" alt="empresas"/></a>
+		
+		</li>
+
+		<li>inmobiliaria
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Inmobiliaria</label><br/>
+		<select name="categoria">
+		<option>inmobiliaria</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+	  	<a href="/buscar/searchcatA.php?usersearch=inmobiliaria&submit=Buscar"><img src="/images/inmobiliaria2.png"width="190" height="190" alt="inmobiliaria"/></a>
+		
+		</li>
+
+		<li>motos
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Motos</label><br/>
+		<select name="categoria">
+		<option>motos</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+		<a href="/buscar/searchcatA.php?usersearch=motos&submit=Buscar"><img src="/images/motos.png"width="190" height="190" alt="motos"/></a>
+		
+		</li>
+		
+		<!--
+		<li>videojuegos
+		
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Videojuegos</label><br/>
+		<select name="categoria">
+		<option>videojuegos</option>
+		</select><br />
+		<?php// $_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+	
+		
+	    <a href="/buscar/search"><img src="/images/juegos.png"width="190" height="190"alt="videojuegos"/></a>
+		
+		</li>
+		-->
+		
+		<li>y más
+				
+	    <a href="/buscar/search.html"><img src="/images/mas.jpg" width="190" height="190" alt="mas"/></a>
+		
+		</li>
+		
+		<li>eurocap
+				
+	    <a href="/buscar/searchtel.php?usersearch=652614140&submit=Buscar"><img src="/images/eurocap.jpg" width="190" height="190" alt="mas"/></a>
+		
+		</li>
+
+		<li>aljarafe inmobiliaria
+				
+	    <a href="/buscar/searchtel.php?usersearch=685213499&submit=Buscar"><img src="/images/aljarafeinmo.jpg" width="190" height="190" alt="mas"/></a>
+		
+		</li>
+
+		<li>escayolas david
+		
+		<a href="javascript:void(0);" onclick="javascript:window.open('/buscar/searchtel.php?usersearch=626344320&submit=Buscar', '_blank');
+		window.open('http://www.escayolasdavid.blogspot.com.es/', '_blank');
+		window.open('https://www.youtube.com/watch?v=xPtS3tutJIc', '_blank');"><img src="/images/david.jpg" width="190" height="190" alt="mas"/></a>
+		
+		<!--
+		<a href="/buscar/searchtel.php?usersearch=626344320&submit=Buscar"><img src="/images/david.jpg" width="190" height="190" alt="mas"/></a>
+		-->
+		
+		</li>
+
+		<li>anúnciate
+				
+	    <a href="/infor.php"><img src="/images/aqui1.jpg" width="190" height="190" alt="mas"/></a>
+		
+		</li>
+<!--
+		<li>anúnciate
+				
+	    <a href="/infor.php"><img src="/images/aqui2.jpg" width="190" height="190" alt="mas"/></a>
+		
+		</li>		
+
+		<li>anúnciate
+				
+	    <a href="/infor.php"><img src="/images/aqui3.jpg" width="190" height="190" alt="mas"/></a>
+		
+		</li>
+
+		<li>anúnciate
+				
+	    <a href="/infor.php"><img src="/images/aqui4.jpg" width="190" height="190" alt="mas"/></a>
+		
+		</li>		
+
+		<li>anúnciate
+				
+	    <a href="/infor.php"><img src="/images/aqui5.jpg" width="190" height="190" alt="mas"/></a>
+		
+		</li>		
+-->
+	<div id = "navdiv">
+    <ul class = "mainlinks">
+			   
+			<li><a href="/infor.php">información</a></li>
+			<li><a href="/logon/">mis anuncios</a></li>	  
+			<li><a href="/addscore.php" >publicar anuncios</a></li>
+			<li><a href="/buscar/search.html" >buscar anuncios</a></li>
+			<li><a href="/index.php" >inicio</a></li>
+			
+			<!--
+			<li><a href="http://www.canalpilas.com/" >canalpilas</a></li>
+			<li><a href="http://www.anunciospilas.com/" >anunciospilas</a></li>
+	        <li><a href="http://www.anuncioes.com/">anuncioes</a></li>
+			<li><a href="http://www.nuevoanuncios.com/">nuevoanuncios</a></li>	  
+		    <li><a href="#" >Webs asociadas:</a></li>
+			-->
+	</p>
+	<br />
+	
+  	</ul>
+    </div>
+		
+		<br />
+		
+	</ul>
+	</div>
+</div>
+		   
+<div id="pie">
+
+<hr/>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- filoterapia_main_Blog1_300x250_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1707553254800023"
+     data-ad-slot="8107477097"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- filoterapia_main_Blog1_300x250_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1707553254800023"
+     data-ad-slot="8107477097"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr />
+
+<?php
+
+/*
+
+$fp = fopen("contador.txt","r"); // Abrimos el fichero donde guardaremos y leeremos las visitas 
+
+$visitas = intval(fgets($fp)); // Leemos las visitas y usamos intval para asegurarnos de que devuelve un entero
+
+$visitas++; // Incrementamos las visitas
+
+fclose($fp); // Cerramos el archivo pues lo vamos a volver a abrir en modo escritura
+
+$fp = fopen("contador.txt","w"); // Abrimos el archivo en modo escritura
+
+fputs($fp,$visitas); // Escribimos las visitas sumadas
+
+echo 'Visitas : ' . $visitas . ' : '; // Mostramos las visitas 
+
+*/
+
+?>
+
+<!--
+<a href="http://www.contadorvisitasgratis.com" target="_Blank" title="contador de visitas gratis">contador de visitas gratis</a><br>
+<script type="text/javascript" src="http://counter6.allfreecounter.com/private/countertab.js?c=5277ac188918225fba4ff856f485a9a4"></script>
+-->
+
+<!--<a href="http://www.contadorvisitasgratis.com" title="contador de visitas gratis"><img src="http://counter6.allfreecounter.com/private/contadorvisitasgratis.php?c=5277ac188918225fba4ff856f485a9a4" border="0" title="contador de visitas gratis" alt="contador de visitas gratis"></a>-->
+
+Copyright ©2014-2015 anunciospilas.com/es, anuncioes.com/es
+
+</div>
+
+</body>
+</html>

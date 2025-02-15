@@ -1,0 +1,22 @@
+<!-- You should make sure that the file cookiechoices.js is available
+and accessible from the root directory of your site.  -->
+
+<script src="/cookiechoices.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentDialog('Your message for visitors here.',
+        'close message', 'learn more', 'http://example.com');
+  });
+</script>
+
+
+<!-- You should make sure that the file cookiechoices.js is available
+and accessible from the root directory of your site.  -->
+
+<script src="/cookiechoices.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentBar('Your message for visitors here',
+      'close message', 'learn more', 'http://example.com');
+  });
+</script>

@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Anuncios Gratis - Search</title>
+  <link rel="stylesheet" type="text/css" href="/buscar/stylesearch.css" />
+  <link href="/images/main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
+<body>
+
+<div id="logo">
+		
+	<a href="/index.php"><img src="/images/xbg1.jpg" width="600" height="150" alt=""/></a>
+			
+	<h3>Buscar anuncios por:</h3>
+	
+	<form method="get" action="search2.php">
+	
+	<label for="categoria">Categoría:</label>
+	<select name="categoria">
+	<option></option>
+	<option>animales</option>
+	<option>bicicletas</option>
+	<option>coches</option>
+	<option>empleo</option>
+	<option>empresas</option>
+	<option>inmobiliaria</option>
+	<option>motos</option>
+	<option>videojuegos</option>
+	<option>otras</option>
+	</select>
+    
+	<p>y</p>
+	
+ 	<label for="provincia">Provincia:</label>
+    <select name="provincia">
+	<option></option>
+	<option>Alava</option><option>Albacete</option><option>Almeria</option><option>Asturias</option><option>Avila</option>
+	<option>Badajoz</option><option>Barcelona</option><option>Burgos</option><option>Caceres</option><option>Cadiz</option>
+	<option>Cantabria</option><option>Castellon</option><option>Ceuta</option><option>Ciudad Real</option><option>Cordoba</option>
+	<option>Cuenca</option><option>Gerona</option><option>Granada</option><option>Guadalajara</option><option>Guipuzcoa</option>
+	<option>Huelva</option><option>Huesca</option><option>Islas Baleares</option><option>Jaen</option><option>La Coruña</option>
+	<option>La Rioja</option><option>Las Palmas</option><option>Leon</option><option>Lerida</option><option>Lugo</option>
+	<option>Madrid</option><option>Malaga</option><option>Melilla</option><option>Murcia</option><option>Navarra</option>
+	<option>Orense</option><option>Palencia</option><option>Pontevedra</option><option>Salamanca</option><option>Santa Cruz de Tenerife</option>
+	<option>Segovia</option><option>Sevilla</option><option>Soria</option><option>Tarragona</option><option>Teruel</option>
+	<option>Toledo</option><option>Valencia</option><option>Valladolid</option><option>Vizcaya</option><option>Zamora</option>
+	<option>Zaragoza</option>
+	</select>
+	
+    <input type="submit" name="submit" value="Submit" />
+	</form>
+	
+	<p>o...</p>
+	
+	<form method="get" action="search.php">
+    <label for="usersearch">Sólo por Provincia:</label>
+    <input type="text" id="usersearch" name="usersearch" />
+    <input type="submit" name="submit" value="Submit" />
+	</form>
+	
+	<p></p>
+	
+	<form method="get" action="searchcat.php">
+    <label for="usersearch">Sólo por Categoría:</label>
+    <input type="text" id="usersearch" name="usersearch" />
+    <input type="submit" name="submit" value="Submit" />
+	</form>
+	
+	<p></p>
+	
+	<form method="get" action="searchtel.php">
+    <label for="usersearch">Sólo por Teléfono:</label>
+    <input type="text" id="usersearch" name="usersearch" />
+    <input type="submit" name="submit" value="Submit" />
+	</form>
+	
+	<p></p>
+	
+	<form method="get" action="searchdes.php">
+    <label for="usersearch">Sólo por Descripción:</label>
+    <input type="text" id="usersearch" name="usersearch" />
+    <input type="submit" name="submit" value="Submit" />
+	</form>
+
+		
+</div>
+
+  <br />
+   <br />
+    <br />
+	 <br />
+	  <br />
+	   <br />
+	    <br />
+		 <br />
+		  <br />
+		   <br />
+			<br />
+			 <br />
+			  <br />
+		       <br />
+		        <br />
+				 
+<div id ="container">
+
+	<div id = "navdiv">
+    <ul class = "mainlinks">
+      <li><a href="/infor.php">información</a></li>
+	  <li><a href="/logon/">acceso y registro</a></li>	  
+      <li><a href="/addscore.php" >insertar anuncio</a></li>
+	  <li><a href="/buscar/search" >buscar anuncios</a></li>
+	  <li><a href="/index.php" >inicio</a></li>
+
+	  <!--<li><a href="index.php" class="selected">inicio</a></li>-->	  
+	
+	</p>
+	<br />
+  
+  	</ul>
+    </div>
+  
+  <div id="content">
+    <ul id="picturelist">
+	
+		<li>animales
+	  
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Animales</label><br/>
+		<select name="categoria">
+		<option>animales</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+	  	<a href="/indexanimales.php"><img src="/images/animales.png"width="190" height="190" alt="animales"/></a>
+		
+		</li>
+	
+		<li>bicicletas
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Bicicletas</label><br/>
+		<select name="categoria">
+		<option>bicicletas</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+	  	<a href="/indexbicicletas.php"><img src="/images/bicis.png"width="190" height="190" alt="bicicletas"/></a>
+		
+		</li>
+		
+		<li>coches
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Coches</label><br/>
+		<select name="categoria">
+		<option>coches</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		
+		-->
+	  	<a href="/indexcoches.php"><img src="/images/coches.png"width="190" height="190" alt="coches"/></a>
+		
+		</li>
+		
+		<li>empleo
+		
+		<!--
+	  	<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Empleo</label><br/>
+		<select name="categoria">
+		<option>empleo</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+		<a href="/indexempleo.php"><img src="/images/empleos.png"width="190" height="190"alt="empleo"/></a>
+		
+		</li>
+	
+		<li>empresas
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Empresas</label><br/>
+		<select name="categoria">
+		<option>empresas</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />	
+		</form>
+		-->
+		
+		<a href="/indexempresas.php"><img src="/images/empresas.png"width="190" height="190" alt="empresas"/></a>
+		
+		</li>
+
+		<li>inmobiliaria
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Inmobiliaria</label><br/>
+		<select name="categoria">
+		<option>inmobiliaria</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+	  	<a href="/indexinmo.php"><img src="/images/inmobiliaria2.png"width="190" height="190" alt="inmobiliaria"/></a>
+		
+		</li>
+
+		<li>motos
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Motos</label><br/>
+		<select name="categoria">
+		<option>motos</option>
+		</select><br />
+		<?php //$_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+		<a href="/indexmotos.php"><img src="/images/motos.png"width="190" height="190" alt="motos"/></a>
+		
+		</li>
+		
+
+		<li>videojuegos
+		
+		<!--
+		<form enctype="multipart/form-data" method="post" action="indexcategoria.php">
+		<label for="categoria">Videojuegos</label><br/>
+		<select name="categoria">
+		<option>videojuegos</option>
+		</select><br />
+		<?php// $_POST["categoria"]; ?>
+		
+		<input type="submit" value="ver anuncios" name="submit" />
+		</form>
+		-->
+		
+	    <a href="/indexvideojuegos.php"><img src="/images/juegos.png"width="190" height="190"alt="videojuegos"/></a>
+		
+		</li>
+		
+
+
+	<div id = "navdiv">
+    <ul class = "mainlinks">
+	
+			<li><a href="http://www.anunciospilas.com/" >anunciospilas</a></li>
+	        <li><a href="http://www.anuncioes.com/">anuncioes</a></li>
+			<li><a href="http://www.nuevoanuncios.com/">nuevoanuncios</a></li>	  
+		    <li><a href="#" >Webs asociadas:</a></li>
+	</p>
+	<br />
+	
+  	</ul>
+    </div>
+		
+		<br />
+		
+	</ul>
+	</div>
+</div>
+		   
+<div id="pie">
+
+<hr/>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- filoterapia_main_Blog1_300x250_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1707553254800023"
+     data-ad-slot="8107477097"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- filoterapia_main_Blog1_300x250_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1707553254800023"
+     data-ad-slot="8107477097"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr />
+
+<a href="http://www.contadorvisitasgratis.com" target="_Blank" title="contador de visitas gratis">contador de visitas gratis</a><br>
+<script type="text/javascript" src="http://counter6.allfreecounter.com/private/countertab.js?c=5277ac188918225fba4ff856f485a9a4"></script>
+
+<!--<a href="http://www.contadorvisitasgratis.com" title="contador de visitas gratis"><img src="http://counter6.allfreecounter.com/private/contadorvisitasgratis.php?c=5277ac188918225fba4ff856f485a9a4" border="0" title="contador de visitas gratis" alt="contador de visitas gratis"></a>-->
+
+Copyright ©2014 www.nuevoanuncios.com, www.anuncioes.com, www.anunciospilas.com
+
+</div>
+
+</body>
+</html>

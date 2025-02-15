@@ -1,0 +1,134 @@
+
+{
+	margin:0;
+	padding:0;
+}
+
+body{
+font-size:15pt;
+letter-spacing:1px;
+background: url(5.jpg) repeat; /*#f7f7f7 url(xbg1.jpg) no-repeat 0 +15px ;*/
+font-family: Helvetica, Arial, sans-serif;
+word-spacing: 5px;
+letter-spacing:-1px;
+color: #000000;
+}
+
+
+#container{
+margin: 200px auto 0 auto;  
+width:875px;}               //anchura del web
+
+
+#navdiv
+{
+	text-align: center;    //text-align: centerl;
+	height:100px;
+}
+
+#navdiv ul
+{
+	list-style-type: none;
+	list-style-image: none;
+	margin:auto;
+}
+
+#navdiv ul li
+{
+	float: right;
+	margin-right:30px;
+	list-style-type: none;
+	list-style-image: none;
+	
+}
+
+#navdiv ul li a
+{
+	padding:30px 0 0 0;
+	background: #646BF5;
+	display: block;
+	padding-top:10px;
+	width: 125px;
+	height:50px;
+	text-align: center;
+	color:#000000;
+	text-decoration: none;
+}
+#navdiv ul li a:hover
+{
+	/*background: url(navlisttabhover.png) 0 0 no-repeat ;*/
+	background: #f7f7f7;
+}
+
+#navdiv ul li a.selected
+{
+	padding:30px 0 0 0;
+	background: #f7f7f7;
+	display: block;
+	padding-top:10px;
+	width: 100px;
+	height:50px;
+	text-align: center;
+	color:#000000;
+	text-decoration: none;	 
+}
+
+#content
+{
+background-color: //#f7f7f7; //color del fondo web
+padding:20px 0 20px 20px;
+height:800px;                //altura de la web
+}
+
+h1,h2,h3,h4{
+padding:30px 0 30px 0 ;}
+
+h1{font-size:7em;padding-left:40px;}
+h2{font-size:1.5em;}
+h3{font-size:0.65 em;}
+h4{font-size:20px;}
+
+
+#picturelist {
+text-align:left;
+margin-top: auto;
+margin-right:auto;
+margin-left:auto;
+
+}
+
+#picturelist li {
+text-align:left;
+list-style:none;
+float:left;
+margin:7px;          //margen entre las etiquetas 
+font-weight:bold;
+color:#000000;
+}
+
+#picturelist img{
+display:block;
+border:2px solid gray;
+}
+
+#picturelist img:hover{
+border:2px solid #000000;
+}
+
+#picturelist a{
+color:#777777;
+text-decoration:none;
+}
+
+#picturelist a:hover{
+color:#000000;
+}
+
+#pie{
+height: 135px;
+background-color: //#f7f7f7;
+color: #000000;
+text-align: center;
+clear: both;
+font-size: 70%;
+}
